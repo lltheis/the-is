@@ -10,9 +10,9 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
      <!--[if lt IE 9]>
-  <script src="js/html5shiv.js"></script>
-  <script src="js/respond.min.js"></script>
-<![endif]-->  
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+      <![endif]-->  
 
     <!-- Custom styles for this template go here -->
     <link rel="stylesheet" href="css/styles.css">
@@ -64,6 +64,23 @@
 
     
 
+    <div class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <p>One fine body&hellip;</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
 <!-- INTRO SECTION -->  
         <div class="container-fluid" id="my-work">
           <div class="col-xs-12" name="work" id="hello-background">
@@ -78,9 +95,27 @@
   <!-- PROJECTS / WORKS -->         
         <div class="container">
           <div class="row no-gutters"  id="work">
-              
           </div><!-- /row -->
         </div><!-- /container -->
+
+<!-- MODAL PROJECTS / WORKS --> 
+<div class="container">
+  <button type="button" data-toggle="modal" data-target="#myModal">
+    <a href="#works" data-toggle="modal">Project Title</a>
+  </button>
+  <!-- Project Details -->
+  <div id="works" class="modal fade">
+    <div class="modal-dialog">
+     <div class="modal-content">
+      <div class="modal-header">
+          <a class="close" data-dismiss="modal">x</a>
+          <h3>Project Title</h3>
+     </div>
+     <div class="modal-body">This is where the description of my project is.
+     </div>
+   </div>
+ </div>
+ </div></div>
 
 <!-- ABOUT SECTION --> 
       <div class="anchor" id="about">
@@ -227,9 +262,8 @@
       <!-- ============================= -->
       <!-- All your JavaScript comes now -->
       <!-- ============================= -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-     
-    
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>   
+
       <!-- Bootstrap core JS -->
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
@@ -243,3 +277,5 @@
     async defer></script>
   </body>
 </html>
+
+

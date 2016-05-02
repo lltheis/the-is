@@ -8,8 +8,8 @@ $(document).ready(function(){
 	// work section
 	for(var i = 0; i < works.length; ++i ) {
 		$("#work").append("\
-			<div class='lg-col-2 col-md-3 col-sm-4 col-xs-6 project'>\
-				<a target='_blank' href=" + works[i].URL + " class='work-img'>\
+			<div class='lg-col-2 col-md-3 col-sm-4 col-xs-6' project data-toggle='modal' data-target='.bs-example-modal-sm'>\
+				<a target='_blank' href=" + works[i].description + " class='work-img'>\
 				<img class='img-responsive' src='" + works[i].pic + "'>\
 				<span class='info'><p class='project-label'>Project:</p> " + works[i].title + "</span>\
 				</a>\
@@ -20,15 +20,16 @@ $(document).ready(function(){
 		}).mouseleave(function() {
     	$(".info", this).hide();
 	});
-/*		var images = $("#work img");
-		if(i%2 === 0){
-			$(images[i]).css("border", "2px solid DodgerBlue");
-		} else {
-			$(images[i]).css("border", "2px solid salmon");
-		};*/
 	};
 });
 
+
+// PROJECT DETAILS
+$(document).ready(function(){     
+	$("#works").on("click", function(){ 
+		$("#project-details").modal('show');
+		});
+  });
 
 // CLOSE NAV DROPDOWNS
 $(document).ready(function() {
