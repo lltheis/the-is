@@ -78,6 +78,7 @@ a:hover {
 
 .nav-home {
 	padding-top: 10px;
+	padding-left: 10px;
 }
 
 .navbar>ul>li>a {
@@ -223,23 +224,19 @@ background-image: none;
 	left: 5%;
 	color: #6fc84c;
 	background-color: #FFF;
-	opacity: .8;
+	opacity: .75;
 	padding: 2px 0px 2px 4px;
 	font-family: 'Slabo';
 	text-transform: uppercase;
 	font-weight:700;
 	letter-spacing: .1em;
 	line-height: 1.1;
-	display: none;
-}
-
-.project {
-	padding: 0px;
 }
 
 .project-label {
 	font-size: 1.5em;
 	font-weight: 100;
+	color: #279B2E;
 }
 
 .popover-title {

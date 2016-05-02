@@ -2,30 +2,17 @@
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
 
 
-// DOCUMENT IS READY
+// WORK SECTION
 $(document).ready(function(){
-	/* alert("Document is ready!"); */
-	// work section
 	for(var i = 0; i < works.length; ++i ) {
 		$("#work").append("\
-			<div class='lg-col-2 col-md-3 col-sm-4 col-xs-6 project'>\
+			<div class='col-xs-12 col-sm-4 col-md-3 col-lg-2 project'>\
 				<a target='_blank' href=" + works[i].URL + " class='work-img'>\
 				<img class='img-responsive' src='" + works[i].pic + "'>\
 				<span class='info'><p class='project-label'>Project:</p> " + works[i].title + "</span>\
 				</a>\
 			</div>\
 	");
-		$(".work-img").mouseenter(function() {
-    	$(".info", this).show();
-		}).mouseleave(function() {
-    	$(".info", this).hide();
-	});
-/*		var images = $("#work img");
-		if(i%2 === 0){
-			$(images[i]).css("border", "2px solid DodgerBlue");
-		} else {
-			$(images[i]).css("border", "2px solid salmon");
-		};*/
 	};
 });
 
@@ -33,18 +20,6 @@ $(document).ready(function(){
 // CLOSE NAV DROPDOWNS
 $(document).ready(function() {
 	$('.dropdown').dropit();
-});
-
-
-// TOOLTIP
-$(function () {
-	$('#item1').tooltip();
-});
-
-
-// POPOVERS FOR TOUCH SCREEN TOOLTIPS
-$(function () {
-	$('[data-toggle="popover"]').popover({trigger: 'hover click'});
 });
 
 
@@ -68,7 +43,6 @@ $(".message-box").on("keyup", function() {
 
 
 // EVENT LISTENER SUBMIT BUTTON
-
 $("#button").on("click", function(){
 	var comment=$(".message-box").val();if(comment!="") {
 		$("#visible-comment").html("Thank you for your message: '"+comment+"'<br>I will get back to you soon!");
