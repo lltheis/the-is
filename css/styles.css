@@ -89,7 +89,6 @@ a:hover {
 	padding-top: 65px;
 }
 
-.navbar-inverse .nav li.dropdown.open > .dropdown-toggle,
 .navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
 .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle,
 .nav,
@@ -206,7 +205,6 @@ background-image: none;
 	padding-top: 25px;
 	background-size: cover;
 	color: #279B2E;
-	height: 380px;
 }
 
 
@@ -290,10 +288,6 @@ background-image: none;
 
 .contact-form {
 	padding-bottom: 30px;
-}
-
-.contact-information {
-	padding-left: 100px;
 }
 
 #contact-background h2 {
