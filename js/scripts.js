@@ -6,8 +6,17 @@
 $(document).ready(function(){
 	for(var i = 0; i < works.length; ++i ) {
 		$("#work").append("\
+<<<<<<< HEAD
 			<div class='col-xs-12 col-sm-4 col-md-3 col-lg-2 project work-img'>\
 				<div class='work-img'>\
+=======
+<<<<<<< HEAD
+			<div class='col-xs-12 col-sm-4 col-md-3 col-lg-2 project'>\
+=======
+			<div class='col-xs-6 col-md-2 project'>\
+>>>>>>> updated html & css for mobile
+				<a target='_blank' href=" + works[i].URL + " class='work-img'>\
+>>>>>>> updated html & css for mobile
 				<img class='img-responsive' src='" + works[i].pic + "'>\
 				<span class='info'><p class='project-label'>Project:</p> " + works[i].title + "</span>\
 				</div>\
