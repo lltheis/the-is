@@ -10,9 +10,9 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
      <!--[if lt IE 9]>
-  <script src="js/html5shiv.js"></script>
-  <script src="js/respond.min.js"></script>
-<![endif]-->  
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+      <![endif]-->  
 
     <!-- Custom styles for this template go here -->
     <link rel="stylesheet" href="css/styles.css">
@@ -27,7 +27,7 @@
 
   <body data-spy="scroll" data-target=".navbar">
 <!-- NAVBAR -->
-      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="navbar_id" data-toggle="collapse" data-target=".navbar-collapse">
+      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -43,7 +43,17 @@
           </div><!-- end navbar-header -->
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right nav-other">
-              <li><a href="#work">My Work</a></li>
+              <li class="dropdown">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle work" aria-expanded="false">My Work</a>
+                  <ul class="dropdown-menu fallback">
+                    <li>
+                      <a href="#work1">Work 1</a>
+                    </li>
+                    <li>
+                      <a href="#work2">Work 2</a>
+                    </li>
+                  </ul>
+              </li>
               <li><a href="#about">About</a></li>
               <li><a href="#faq">FAQ</a></li>
               <li><a href="#contact">Get in Touch</a></li>
@@ -52,13 +62,8 @@
         </div><!-- end nav container -->
       </nav><!-- end navbar --> 
 
-<<<<<<< HEAD
-    
-
-=======
->>>>>>> updated html & css for mobile
 <!-- INTRO SECTION -->  
-        <div class="container-fluid" id="work">
+        <div class="container-fluid" id="my-work">
           <div class="col-xs-12" name="work" id="hello-background">
             <h2>Laura Theis</h2>
             <p><strong>I am a developer. I am a product manager.</strong><br>I like systems work - pulling in parts of the puzzle and putting together the whole.</p>
@@ -69,16 +74,32 @@
 
 
   <!-- PROJECTS / WORKS -->         
-<<<<<<< HEAD
-        <div class="container-fluid">
-          <div class="row no-gutters"  id="work">
-              
-=======
         <div class="container">
-          <div class="row no-gutters">
->>>>>>> updated html & css for mobile
+          <div class="row no-gutters"  id="work">
           </div><!-- /row -->
         </div><!-- /container -->
+
+<!-- MODAL PROJECTS / WORKS --> 
+<div class="container">
+  <button type="button" data-toggle="modal" data-target="#myModal" class="lg-col-2 col-md-3 col-sm-4 col-xs-6 project">
+    <a href="#works" data-toggle="modal" ><img src="img/lupine.jpg" alt="Project2" class="img-responsive"><span class="info"><p class="project-label">Project:</p> " + works[i].title + "</span></a>
+  </button>
+
+
+
+  <!-- Project Details -->
+  <div id="works" class="modal fade">
+    <div class="modal-dialog">
+     <div class="modal-content">
+      <div class="modal-header">
+          <a class="close" data-dismiss="modal">x</a>
+          <h3>Project Title</h3>
+     </div>
+     <div class="modal-body">This is where the description of my project is.
+     </div>
+   </div>
+ </div>
+ </div></div>
 
 <!-- ABOUT SECTION --> 
       <div class="anchor" id="about">
@@ -201,14 +222,14 @@
           </div><!--end jumbotron-->
         </section><!--end anchor-->
         <article class="container" id="contact-background" data-stellar-background-ratio=".8" >
-          <section class="col-xs-12 col-md-6 col-lg-4 contact-information">
+          <section class="col-xs-12 col-md-6 contact-information">
             <h2><span class="glyphicon glyphicon-envelope"></span> Email</h2>
             <p class="contact-content">theis.laura.l@gmail.com</p>
             <h2><span class="glyphicon glyphicon-earphone"></span> Call</h2>
             <p class="contact-content">123-456-7890</p>
            
           </section>
-          <section class="col-xs-12 col-md-6 col-lg-8 contact-form">
+          <section class="col-xs-12 col-md-6 contact-form">
             <h2>I'm located in beautiful Ketchum, Idaho</h2>
             <div class="map-box" id="map">
               <!-- <iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=13&center=43.6807%2C-114.3637&key=AIzaSyCrPym5zWjfLR5Z2vCo0A9QgNz57UAW3TE" allowfullscreen></iframe> -->
@@ -225,9 +246,8 @@
       <!-- ============================= -->
       <!-- All your JavaScript comes now -->
       <!-- ============================= -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-     
-    
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>   
+
       <!-- Bootstrap core JS -->
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
@@ -241,3 +261,5 @@
     async defer></script>
   </body>
 </html>
+
+
