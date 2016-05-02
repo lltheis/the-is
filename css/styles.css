@@ -78,6 +78,7 @@ a:hover {
 
 .nav-home {
 	padding-top: 10px;
+	padding-left: 10px;
 }
 
 .navbar>ul>li>a {
@@ -205,7 +206,6 @@ background-image: none;
 	padding-top: 25px;
 	background-size: cover;
 	color: #279B2E;
-	height: 380px;
 }
 
 
@@ -293,10 +293,6 @@ background-image: none;
 
 .contact-form {
 	padding-bottom: 30px;
-}
-
-.contact-information {
-	padding-left: 100px;
 }
 
 #contact-background h2 {
