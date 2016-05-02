@@ -7,10 +7,14 @@ $(document).ready(function(){
 	for(var i = 0; i < works.length; ++i ) {
 		$("#work").append("\
 <<<<<<< HEAD
+<<<<<<< HEAD
 			<div class='col-xs-12 col-sm-4 col-md-3 col-lg-2 project'>\
 =======
 			<div class='col-xs-6 col-md-2 project'>\
 >>>>>>> updated html & css for mobile
+=======
+			<div class='col-xs-6 col-md-2 project'>\
+>>>>>>> ca064178aa69be1ccab5ed295313e0927adac448
 				<a target='_blank' href=" + works[i].URL + " class='work-img'>\
 				<img class='img-responsive' src='" + works[i].pic + "'>\
 				<span class='info'><p class='project-label'>Project:</p> " + works[i].title + "</span>\
