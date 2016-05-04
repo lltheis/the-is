@@ -6,14 +6,34 @@
 $(document).ready(function(){
 	for(var i = 0; i < works.length; ++i ) {
 		$("#work").append("\
-			<div class='col-xs-12 col-sm-4 col-md-3 col-lg-2 project'>\
-				<a target='_blank' href=" + works[i].URL + " class='work-img'>\
+			<div class='col-xs-12 col-sm-4 col-md-3 col-lg-2 project work-img'>\
+				<div class='work-img'>\
 				<img class='img-responsive' src='" + works[i].pic + "'>\
 				<span class='info'><p class='project-label'>Project:</p> " + works[i].title + "</span>\
-				</a>\
+				</div>\
 			</div>\
 	");
-	};
+		$("#work a").click(function(event) {
+			event.preventDefault(); 
+			//BUTTON HTML TO TRIGGER MODAL
+			<div class='lg-col-2 col-md-3 col-sm-4 col-xs-6 project'><a href='#myModal' role='button' class='btn btn-link' data-toggle='modal'><img src='img/lupine.jpg' alt='Project1' class='img-responsive'></a>
+						</div>
+				// MODAL HTML
+						<div id='myModal' class='modal fade'>
+						    <div class='modal-dialog'>
+						        <div class='modal-content'>
+						            <div class='modal-header'>
+						                <button type='button' class='close' data-dismiss='modal' aria-hidden='true'>&times;</button>
+						                <h4 class='modal-title'>" + works[i].title + "</h4>
+						            </div>
+						            <div class='modal-body'>
+						                <p>" + works[i].desc + "</p>
+						            </div>
+						        </div>
+						    </div>
+						</div>
+			});
+			};
 });
 
 
