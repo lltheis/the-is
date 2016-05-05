@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+=======
+// BOOTSTRAP MODALS
+    // load the url and show modal on success
+    $("#myModal .modal-body").load(target, function() { 
+         $("#myModal").modal("show"); 
+    });
+});
+>>>>>>> add work modals
 
 // CLOSE NAV DROPDOWNS
 $(document).ready(function() {
