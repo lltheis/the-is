@@ -212,8 +212,8 @@ background-image: none;
 .work-img {
 	display: block;
 	margin: auto;
-	max-width: 200px;
 	position: relative;
+
 }
 
 .info {
@@ -223,12 +223,14 @@ background-image: none;
 	color: #6fc84c;
 	background-color: #FFF;
 	opacity: .75;
-	padding: 2px 0px 2px 4px;
+	padding: 5px 5px 10px 5px;
 	font-family: 'Slabo';
 	text-transform: uppercase;
 	font-weight:700;
 	letter-spacing: .1em;
 	line-height: 1.1;
+	white-space: normal;
+	width: 100%;
 }
 
 .project-label {
@@ -275,9 +277,6 @@ background-image: none;
 .panel-title {
 	color: #8cb63d;
 	font-weight: 700;
-	}
-
-.panel-body {
 	}
 
 
