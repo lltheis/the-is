@@ -1,7 +1,7 @@
 // BOOTSTRAP MODALS
-    // load the url and show modal on success
-    $("#myModal .modal-body").load(target, function() { 
-         $("#myModal").modal("show"); 
+$( document ).ready(function() {
+    $('#myModal').on('hidden.bs.modal', '.modal', function () {
+          $(this).removeData('bs.modal');
     });
 });
 
