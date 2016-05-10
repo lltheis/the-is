@@ -86,7 +86,7 @@ a:hover {
 }
 
 .anchor {
-	padding-top: 65px;
+	padding-top: 45px;
 }
 
 .navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
@@ -279,6 +279,7 @@ background-image: none;
 
 .img-about {
 	width: 100%;
+	margin-bottom: 10px;
 } 
 
 .panel-default {
@@ -320,7 +321,7 @@ background-image: none;
 
 
 /**** RESUME ****/
-.learn-more {
+.about {
 	text-align: left;
 	float: left;
 }
