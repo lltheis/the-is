@@ -8,9 +8,10 @@ body {
 h1, 
 h2 {
 	font-family: 'Slabo 27px', Arial, sans-serif;
-	color: #101010;
+	color: #333;
 	margin-top: 5px;
 	margin-bottom: 10px;
+	padding-left: 10px;
 }
 
 a {
@@ -21,6 +22,26 @@ a {
 a:hover {
 	color: #279B2E;
 	text-decoration: none;
+}
+
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+        
+.custom-bullet li {
+	display: block;
+  padding-bottom: 5px;
+}
+
+.custom-bullet li:before {
+/*Using a Bootstrap glyphicon as the bullet point*/
+	content: "\e080";
+	font-family: 'Glyphicons Halflings';
+	font-size: 9px;
+	float: left;
+	margin-top: 4px;
+	margin-left: -25px;
 }
 
 /*****RESPONSIVENESS ******/
@@ -122,8 +143,9 @@ background-image: none;
 
 
 /**** CAROUSEL ****/
-.carousel-inner {
-	height: 250px;
+.carousel-caption {
+	top: 0;
+  bottom: auto;
 }
 
 .carousel-inner>.item {
@@ -135,10 +157,6 @@ background-image: none;
 	transition: 1.5s, ease-in-out, left;
 }
 
-.carousel-caption {
-	top: 0;
-  bottom: auto;
-}
 
 /***** FORMS ******/
 .form-control {
@@ -195,8 +213,8 @@ background-image: none;
 	padding-top: 25px;
 	background-attachment: fixed;
 	background-size: cover;
-	color: #279B2E;
-	height: 200px;
+	color: #fff;
+	padding-bottom: 10px;
 }
 
 #contact-background {
