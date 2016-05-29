@@ -4,36 +4,35 @@ title:  "Hi, it's me!"
 date:   2016-05-27 23:20:36 +0000
 categories: about
 ---
-Hi! I'm Laura.\\
-It's just me and I'm here.\\
-I came by way of Wisconsin, through the University of Wisconsin-Madison, landscape architecture...\\
-which led me to the [UW-Triathlon][uw-triathlon] team...\\
-which led me to guiding bike trips with [Trek Travel][trek-travel]...\\
-which led me to the San Juan Islands, California wine country, and southern Utah...\\
-which led me to want to live in the west...\\
-which led me to an [Americorps][americorps] position at the [ERC][erc] in Ketchum, Idaho...\\
-where the heck was Ketchum, Idaho?\\
-a cross-country move to a place I knew no one...\\
-which led me to helping to found [Idaho's Bounty Co-op][idahos-bounty] with my Americorps position...\\
-where I worked from 2007-2013...\\
-and I first ventured in to the software specs scene...\\
-which led me to [Local Food Marketplace][local-food-marketplace]...\\
-I dug in deeper to the software world,\\
-support, training, bug testing, spec writing, documentation and more...\\
-you know, full software development lifecycle stuff...\\
-which brings me to today...\\
-enrolled in CareerFoundry, working through Ruby The Hard Way, RubyKoans and other tools I can get my hands on.\\
+Hi! I'm Laura.
+I came by way of Wisconsin, through the University of Wisconsin-Madison, landscape architecture...
+which led me to the [UW-Triathlon](http://www.wisconsintriathlon.org/){:target="_blank"} team...
+which led me to guiding bike trips with [Trek Travel](http://trektravel.com/){:target="_blank"}...
+which led me to the San Juan Islands, California wine country, and southern Utah...
+which led me to want to live in the west...
+which led me to an [AmeriCorps](http://www.nationalservice.gov/programs/americorps){:target="_blank"} position at the [ERC](http://www.ercsv.org/){:target="_blank"} in Ketchum, Idaho...
+where the heck was Ketchum, Idaho?
+a cross-country move to a place where I knew no one...
+which led me to helping to found [Idahos Bounty](http://www.idahosbounty.coop){:target="_blank"} with my Americorps position...
+where I worked from 2007-2013...
+and I first ventured in to the software specs scene...
+which led me to [Local Food Marketplace](http://home.localfoodmarketplace.com/){:target="_blank"}...
+I dug in deeper to the software world,
+support, training, bug testing, spec writing, documentation and more...
+you know, full software development lifecycle stuff...
+which brings me to today...
+enrolled in [CareerFoundry](http://careerfoundry.com/){:target="_blank"}, working through [Ruby The Hard Way](http://learnrubythehardway.org/book/){:target="_blank"}, [RubyKoans](http://rubykoans.com/){:target="_blank"} and other tools I can get my hands on.
 
 I look forward to entering this big new world of with all of you!
 
 
-[uw-triathlon]: http://www.wisconsintriathlon.org/
-[trek-travel]:   http://trektravel.com/
-[americorps]: http://www.nationalservice.gov/programs/americorps
-[erc]: http://www.ercsv.org/
-[idahos-bounty]: http://www.idahosbounty.coop
-[local-food-marketplace]: http://home.localfoodmarketplace.com/
-[career-foundry]: http://careerfoundry.com
-[ruby-hard]: http://learnrubythehardway.org/book/ 
-[ruby-koans]: http://rubykoans.com/
+
+
+
+
+
+
+
+
+
 

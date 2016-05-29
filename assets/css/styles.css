@@ -408,11 +408,11 @@ background-image: none;
 
 /***** BLOG ******/
 .post-wrapper {
-	padding: 20px 20px 40px 0px;
+	padding: 20px 20px 40px 20px;
 }
 
 .post-title {
-	font-size: 1.5em;
+	font-size: 1.75em;
 	font-family: 'Slabo 27px', Arial, sans-serif;
 	float: left;
 	font-weight: bold;
@@ -423,5 +423,17 @@ background-image: none;
 }
 
 .post-meta {
+	float: right;
+}
+
+.page-title {
+	font-size: 1.75em;
+}
+
+.post-link {
+	font-size: 1.5em;
+}
+
+.post-meta-home {
 	float: right;
 }
