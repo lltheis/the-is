@@ -89,7 +89,7 @@ a:hover {
 	color: #6fc84c;
 	font-family: 'Slabo 27px', Arial, sans-serif;
 	letter-spacing: .05em;
-	font-size: 1.5em;
+	font-size: 2em;
 }
 
 .nav-other {
@@ -98,8 +98,8 @@ a:hover {
 }
 
 .nav-home {
-	padding-top: 10px;
-	padding-left: 10px;
+	padding-top: 5px;
+	padding-left: 20px;
 }
 
 .navbar>ul>li>a {
@@ -402,5 +402,26 @@ background-image: none;
 }
 
 .fb-like {
+	float: right;
+}
+
+
+/***** BLOG ******/
+.post-wrapper {
+	padding: 20px 20px 40px 0px;
+}
+
+.post-title {
+	font-size: 1.5em;
+	font-family: 'Slabo 27px', Arial, sans-serif;
+	float: left;
+	font-weight: bold;
+}
+
+.post-header {
+	padding: 20px 20px 40px 0px;
+}
+
+.post-meta {
 	float: right;
 }
