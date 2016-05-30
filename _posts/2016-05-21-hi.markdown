@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hi, it's me!"
-date:   2016-05-27 23:20:36 +0000
+date:   2016-05-21 23:20:36 +0000
 categories: about
 ---
 Hi! I'm Laura.\\
@@ -22,8 +22,10 @@ support, training, bug testing, spec writing, documentation and more...\\
 you know, full software development lifecycle stuff...\\
 which brings me to today...\\
 enrolled in [CareerFoundry](http://careerfoundry.com/){:target="_blank"}, working through [Ruby The Hard Way](http://learnrubythehardway.org/book/){:target="_blank"}, [RubyKoans](http://rubykoans.com/){:target="_blank"} and other tools I can get my hands on.\\
+Read more about my back story at [the-is.com](http://www.the-is.com).\\
 
 I look forward to entering this big new world of with all of you!
+
 
 
 
