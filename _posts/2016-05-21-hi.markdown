@@ -22,7 +22,7 @@ support, training, bug testing, spec writing, documentation and more...\\
 you know, full software development lifecycle stuff...\\
 which brings me to today...\\
 enrolled in [CareerFoundry](http://careerfoundry.com/){:target="_blank"}, working through [Ruby The Hard Way](http://learnrubythehardway.org/book/){:target="_blank"}, [RubyKoans](http://rubykoans.com/){:target="_blank"} and other tools I can get my hands on.\\
-Read more about my back story at [the-is.com](http://www.the-is.com).\\
+Read more about my back story at [the-is.com](http://www.the-is.com).
 
 I look forward to entering this big new world of with all of you!
 
