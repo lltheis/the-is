@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Making time for thought"
+title:  "My first actual website attempt"
 date:   2016-07-23 07:08:36 +0000
 categories: career
 ---
