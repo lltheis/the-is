@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tech help"
-date:   2016-08-29 12:16:36 +0000
+date:   2016-08-29 12:16:36
 categories: development tech help
 ---
 Ever since the early days of me learning Excel and simple formulas there, I've been amazed and uplifted by the *free* resources online in the technology world. Want to know how to assign an incremental number to each unique instance of a column? You can find it [here](http://superuser.com/questions/801207/how-to-assign-a-unique-number-per-group-of-entries-in-a-column){:target="_blank"}. All mixed up in using GitHub pages and how to push your updates?  You can find it [here](http://johnpolacek.com/2016/01/29/keep-gh-pages-and-master-in-sync-with-one-line-of-code-2/){:target="_blank"}.
