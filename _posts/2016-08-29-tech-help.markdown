@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Tech help"
+date:   2016-08-29 12:16:36 +0000
+categories: development tech help
+---
+Ever since the early days of me learning Excel and simple formulas there, I've been amazed and uplifted by the *free* resources online in the technology world. Want to know how to assign an incremental number to each unique instance of a column? You can find it [here](http://superuser.com/questions/801207/how-to-assign-a-unique-number-per-group-of-entries-in-a-column){:target="_blank"}. All mixed up in using GitHub pages and how to push your updates?  You can find it [here](http://johnpolacek.com/2016/01/29/keep-gh-pages-and-master-in-sync-with-one-line-of-code-2/){:target="_blank"}.
+
+As developers quickly learn, searching for your issue online is a critical skill to have. It might take re-phrasing what you think your issue is. Or it may take adding or removing details to your issue. You first think you're having a problem with the `form_tag` in Rails, but perhaps the issue is rooted in a new Windows update that's conflicting with your VM / Ubuntu setup. (Yes, this just happened to me.)
+
+Before embarking on a full re-install or scrapping the full setup that's been working, it might be worth searching with some alternative parameters to see if others have run in to the same issue. 
+
+And....if you still can't find your answer, the well-documented and well-organized boards of [Stack Overflow](http://stackoverflow.com/){:target="_blank"} are worth posting your question on. Be sure to be thoughtful and clear in your post. Also be sure to post any related documents or system set up information; if not, other users will first ask that!
+
+So thank you to all of the other developers that have asked questions which helped me out of frustrating scenarios.  And I thank you in advance for all of your future help too!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
