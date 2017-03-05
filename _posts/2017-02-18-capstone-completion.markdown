@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Capstone Completion"
-date:   2016-02-18 14:13:36 +0000
+date:   2017-02-18 14:13:36 +0000
 published: true
 ---
 I've done it! Completed the [Software Product Management Specializationn](https://www.coursera.org/specializations/product-management){:target="_blank"} through the University of Alberta on Coursera. It's been a very valuable class for me, formalizing much of my learned knowledge through previous roles I've held. The wrap-up capstone project was a helpful project and transition in to how these skills we learned might be put in to place in to our work in the software world.
